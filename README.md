@@ -6,9 +6,11 @@
  
  This sample project serves as a basis on how to dismiss those popups using appium. I've created the java version and python code in this project. Here is the meat and potatos: 
  
-' MobileElement el3 = (MobileElement) driver.findElementById("com.android.packageinstaller:id/permission_allow_button");
+``` 
+ MobileElement el3 = (MobileElement) driver.findElementById("com.android.packageinstaller:id/permission_allow_button");
     if (el3.isDisplayed()){
     	el3.click();
     }else{
     	System.out.println("Permission is not displayed");
-}'
+}
+```
